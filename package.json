@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/aaronostroski/nodejs-api-hotdok#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
