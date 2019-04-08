@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-api-hotdok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronostroski/nodejs-api-hotdok.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronostroski/nodejs-api-hotdok/issues"
+  },
+  "homepage": "https://github.com/aaronostroski/nodejs-api-hotdok#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
