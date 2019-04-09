@@ -3,14 +3,14 @@ const Schema = mongoose.Schema;
 
 // Schema 
 
-const CombosSchema = new Schema({
+const CombosSchema = new Schema([{
     name: String,
     category: String,
     deliveryEstimate: String,
     imagePath: String,
     price: Number 
 
-})
+}]);
 
 // Model
 
