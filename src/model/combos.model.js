@@ -7,9 +7,7 @@ const CombosSchema = new Schema([{
     name: String,
     category: String,
     deliveryEstimate: String,
-    imagePath: String,
-    price: Number 
-
+    imgPath: String,
 }]);
 
 // Model
