@@ -5,9 +5,7 @@ const database = "hotdok";
 
 mongoose.connect(`mongodb://${server}/${database}`);
 
-module.exports = mongoose.connection.once('open', ()=>{
+module.exports = mongoose.connection.once('open', () => {
     console.log("Conexão estabelicida com sucesso ao MongoDB")
 
-}).on('error', (error)=>{
-    console.log(`Erro de conexão ao MongoDB ${error}`)
-});
+}).on('error', error => console.log(`Erro de conexão ao MongoDB ${error}`));

@@ -8,11 +8,12 @@ const CombosSchema = new Schema([{
     category: String,
     deliveryEstimate: String,
     imgPath: String,
+
 }]);
 
 // Model
 
-const Combos = mongoose.model('combos', CombosSchema);
+const Combos = mongoose.model('combos', CombosSchema, 'combos');
 
 module.exports = Combos;
 

@@ -1,4 +1,3 @@
-let Menu = require('../model/menu.model');
 let db = require('../db/connection');
 
 var insertMenu = [
@@ -117,7 +116,7 @@ var insertMenu = [
 }
 ];
 
-db.collection("menu").insertMany(insertMenu, (error, result)=>{
+db.collection("menu").insertMany(insertMenu, (error, result) => {
 
     if(error) throw new Error(error);
     console.log(result);
